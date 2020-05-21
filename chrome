@@ -31,7 +31,7 @@ set -em
 #
 
 
-CONFIG=~/.chrome-private.rc
+CONFIG="$XDG_CONFIG_HOME/chrome-private"
 
 if [ -f "${CONFIG}" ]; then
   source "${CONFIG}"
