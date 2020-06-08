@@ -78,6 +78,7 @@ CHROME_ARGS=(
     --save-page-as-mhtml
     --no-default-browser-check
     --deny-permission-prompts
+    --disable-sync
 )
 
 CHROME_NO_GPU_ARGS=(--disable-gpu)
